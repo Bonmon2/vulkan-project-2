@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
 
-#add_compile_options( -static-libgcc -static-libstdc++ )
-
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g ${FILE} -static-libgcc -static-libstdc++")
 project(vulkan_tut)
 
