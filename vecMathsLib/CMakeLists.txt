@@ -1,0 +1,1 @@
+add_library(vecMaths vecMaths.cpp)
