@@ -11,4 +11,4 @@ add_executable(${PROJECT_NAME} main.cpp)
 include_directories(GLFW/include ${Vulkan_INCLUDE_DIRS})
 
 
-target_link_libraries(${PROJECT_NAME} ${CMAKE_SOURCE_DIR}/GLFW/mingw/libglfw3.a OpenGl32 ${Vulkan_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} ${CMAKE_SOURCE_DIR}/GLFW/mingw/libglfw3.a ${Vulkan_LIBRARIES})
